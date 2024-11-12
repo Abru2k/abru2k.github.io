@@ -631,6 +631,7 @@ textarea.contact-input {
 .footer {
   background-color: var(--independence);
   padding-block: 60px;
+  display: grid;
 }
 
 .copyright {
@@ -1015,13 +1016,11 @@ textarea.contact-input {
   .footer .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
 
   .copyright,
   .footer-list { 
   margin-inline: 0;
-  align-items: center;
 }
 
 }
