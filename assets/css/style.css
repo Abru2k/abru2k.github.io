@@ -1008,40 +1008,6 @@ textarea.contact-input {
   .skills-list { column-gap: 100px; }
 
 
-
-  /**
-   * CONTACT
-   */
-
-  .contact-card { padding: 100px; }
-
-  .contact .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 80px;
-  }
-
-  .contact-form { margin-block-end: 0; }
-
-  .contact-item { gap: 25px; }
-
-  .contact-icon { padding: 30px; }
-
-
-
-  /**
-   * BLOG
-   */
-
-  .blog { padding-block-end: 180px; }
-
-  .blog-list {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-  }
-
-  
-
   /**
    * FOOTER
    */
@@ -1053,6 +1019,9 @@ textarea.contact-input {
   }
 
   .copyright,
-  .footer-list { margin-inline: 0; }
+  .footer-list { 
+  margin-inline: 0;
+  align-items: center;
+}
 
 }
